@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css"> 
+    <link rel="stylesheet" href="css/style3.css">
+    <script src="https://kit.fontawesome.com/1bdc19511c.js" crossorigin="anonymous"></script>
+      
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+        </style>
+</head>
+<body>
+    
+    
+    <h1>JOY ENGINEERING COLLEGE LIBRARY</h1>
+    
+    <div>
+    <ul>
+        <li class="active"><a href="#Home"><i class="fas fa-home"></i>Home</a></li>
+        <li><a  href="#Library"><i class="fas fa-book"></i>Library</a></li>
+        <li><a  href="#Donate"><i class="fas fa-hand-holding-medical"></i>Donate</a></li>
+        <li><a  href="#Contact"><i class="fas fa-phone-alt"></i>Contact</a></li>
+        
+    </ul>
+    </div>
+    
+    <section class = 'Home'  id ="Home">
+       <div class="image"> 
+        <h2>The only thing that you absolutely have to know ,is the location of the library.</h1>
+        </div>
+
+    
+    </section>
+
+    <section class="Library" id="Library"> 
+        <h1 class="h-primary center">Library</h1>
+        <form>
+            <div class="smallborder">
+                <div class="allign"> <strong>Name:</strong>  
+                    <input type="text" name="myname" id="Bname" placeholder="Book Name" required>
+                    
+                 </div>
+                <br>
+    
+             
+                <div class="allign"> <strong>Author:</strong>
+                    <input type="text" name="authName" id="authName" placeholder="Author" required> 
+                </div>
+                <br>
+                <div class="allign"> <strong>Category:</strong>
+                    <input list="category" name="category">
+                    <datalist id="category">
+                        <option value="Fiction">
+                        <option value="Non Fiction">
+                        <option value="Classic">
+                        <option value="Comic">
+                        <option value="Action">
+                        <option value="Mystery">
+                        <option value="Engineering Material">
+                        <option value="History">
+
+                    </datalist>
+
+               </div>
+
+               <div class="btn">
+                <button  type="submit"> <strong> ADD BOOK </strong> </button>
+               </div>
+
+               <h2>Your Books</h2>
+
+            
+            </div>
+        </form>
+        <div class="buttons" >
+            <button class="button1"  type="submit"> <strong>EDIT</strong> </button>
+           <button class="button2" type="reset"><strong>DELETE</strong> </button>
+           
+            </div>
+
+    </section>
+    
+
+    <section class = 'Donate'  id ="Donate">
+        <h1 class="h-primary center">Donation Form</h1>
+    
+    
+    <form>
+         <div class="smallborder">
+            <div class="allign"> <strong>Name*:</strong>  
+                <input type="text" name="myname" id="name" placeholder="First Name" required>
+                <input type="text" name="myname" id="name" placeholder="Last Name" required>
+             </div>
+            <br>
+
+         
+            <div class="allign"> <strong>Email Id*:</strong>
+                <input type="email" name="mail" id="gmail" placeholder="Mail id" required> 
+            </div>
+            <br>
+        
+            <div class="allign"><strong>Contact no: </strong> 
+                <input type="number" name="mycontact" id="contact" required> 
+            </div>
+            <br>
+        
+        <div class="allign"> <strong>Address:  </strong> 
+            <input type="text" name="myaddress" id="address" required> 
+        </div>
+        <br>
+
+        <div class="allign"> <strong>City:</strong>  
+            <input type="text" name="mycity" id="city" placeholder="City" required><br><br>
+            <strong>State:</strong> <input type="text" name="mystate" id="state" placeholder="State" required>
+         </div>
+        <br>
+        
+        <div class="allign"> <strong>Number of books to be donated:  </strong> 
+            <input type="number" name="myno" id="no" required> <br>
+        </div>
+        
+        <div class="allign">
+            
+            <p><strong>Category of books:</strong></p><br>
+
+            <label for="fiction"> Fiction </label>
+            <input type="checkbox" name="book1" id="fiction"> 
+               
+              <label for="non-fict"> Non-Fiction </label>
+               <input type="checkbox" name="book2" id="non-fict"> 
+               <br> <br>
+               <label for="classic"> Classics </label>
+               <input type="checkbox" name="book3" id="classic"> 
+               
+               
+               <label for="comic"> Comics </label>
+               <input type="checkbox" name="book4" id="comic">
+               <br> <br>
+
+               <label for="ref"> Reference Materials </label>
+               <input type="checkbox" name="book5" id="ref"> 
+              
+
+               <label for="eng"> Engineering Material </label>
+               <input type="checkbox" name="book6" id="eng"> 
+               <br> <br>
+               <label for="action"> Action and Adventure </label>
+               <input type="checkbox" name="book7" id="action">
+               
+               
+               <label for="mystery"> Mystery </label>
+               <input type="checkbox" name="book8" id="mystery">
+               <br> <br>
+               <label for="history"> Historical Fictions </label>
+               <input type="checkbox" name="book9" id="history">
+              
+
+               <label for="other"> Others </label>
+               <input type="checkbox" name="book10" id="other">
+               <br> <br>
+
+               <br> <br> 
+
+                  
+                  <label for="terms"> <strong>Agree to terms and condition </strong></label>
+                  <input type="checkbox" name="term" id="terms">
+      
+
+            </div>
+         </div>
+        
+               
+                <div class="buttons" >
+                <button class="button1"  type="submit"> <strong> DONATE</strong> </button>
+               <button class="button2" type="reset"><strong>RESET</strong> </button>
+               
+                </div>
+   
+           </div>
+        </form>
+    </section> 
+
+
+    <section class = 'Contact'  id ="Contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        
+        <div id="contact-box">
+            <form action=" ">
+                <div class="form-group" >
+                    <label for="name"><strong>Name:</strong></label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="mail"><strong>Email:</strong></label>
+                    <input type="email" name="mail" id="mail" placeholder="Enter your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone"><strong>Phone No:</strong></label>
+                    <input type="number" name="phone" id="phone" placeholder="Enter your Phone No" required>
+                </div>
+                <div class="form-group">
+                    <label for="dob"><strong>Date of Birth</strong></label>
+                    <input type="date" name="dob" id="dob" placeholder="Enter your DOB">
+                </div>
+                <div class="form-group">
+                    <label for="msg"><strong>Message:</strong></label>
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Type here..."></textarea>
+                </div>
+                <div class="buttons">
+                <button  type="submit"> <strong> SEND </strong> </button>
+                <button  type="reset"> <strong> RESET </strong> </button>
+                 </div>
+
+            </form>
+        </div>
+   
+
+    </section>
+
+</body>
+</html>

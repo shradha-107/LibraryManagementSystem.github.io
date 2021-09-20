@@ -1,0 +1,96 @@
+.Home
+{
+    /* background-image: url("../img/bg1.jpg");
+    background-repeat: no-repeat; */
+    /* background-size: cover;
+    height: 100% ;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}
+/* /* .image{
+  /* background-image: url("../img/bg1.jpg");
+    /* background-repeat: no-repeat; */
+    /* height: 100% ;
+    width: 100%; */
+    /* background-size: cover;
+    justify-content: center; 
+     
+}  */
+
+.Library{
+  background-image: url("../img/bg1.jpg");
+    background-repeat: no-repeat; 
+     background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 25px;
+    font-family: 'Architects Daughter', cursive;
+    /* font-size: 38px; */
+    font-weight: 500px;
+   font-size: 35px;
+    background-color: rgb(49, 65, 138);
+       
+    
+}
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     overflow: hidden;                                /*for the backgrnd clr */
+    background-color:rgb(61, 123, 204);
+    font-size: 20px;
+  }
+  
+  li {
+    float:left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+      
+     background-color: rgb(118, 87, 167);
+    
+  }
+  
+  .active {
+    background-color: rgb(96, 63, 148);
+  }
+
+  .fas
+{
+    margin-right: 7px ;
+}
+.buttons
+{
+    margin:6px; 
+   margin-bottom: 40px;
+   padding: 5px 10px ;
+   font-size: 1.2rem;
+   border-radius: 10px;
+   cursor: pointer;
+   
+}
